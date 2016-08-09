@@ -19,7 +19,14 @@ namespace Calculator
 
         private void button19_Click(object sender, EventArgs e)
         {
+            textBox1.Text = textBox1.Text + '.';
+            textBox1.ForeColor = Color.Red;
+        }
 
+        private void button20_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = textBox1.Text + "0";
+            textBox1.ForeColor = Color.Red;
         }
     }
 }
